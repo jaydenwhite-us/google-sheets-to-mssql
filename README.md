@@ -71,6 +71,7 @@ all data from a Google spreadsheet on a sheet by sheet basis. Index.js
 the data map,
 
 --syncs data to SQL table.
+
 --Data mapping format is 
 ```
 [
