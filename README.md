@@ -26,7 +26,7 @@ NOTE: "./credentials.json" is an array
 
 4. SPECIFY "custom_designation" and the "sheetID" of the Google Sheet which
 can be found in the url. https://docs.google.com/spreadsheets/d/[sheetID]
-
+```
 [
     {
     
@@ -45,7 +45,7 @@ can be found in the url. https://docs.google.com/spreadsheets/d/[sheetID]
         "sheetID":"""
     },
 ]
-
+```
 
 5.) INSTALL NODE and RUN "NODE ." or node index.js from terminal, and follow the directions.
 
