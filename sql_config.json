@@ -1,3 +1,9 @@
 {
-
+  "user": "",
+  "password": "",
+  "server": "",
+  "database": "",
+  "options": {
+    "enableArithAbort": true
+  }
 }
