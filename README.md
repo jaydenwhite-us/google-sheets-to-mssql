@@ -6,22 +6,22 @@ CONFIGURATION
 <li> COPY CONFIGURATION AND PAST INTO "./credentials.json".<br/> After pasting, the file should resemble the following</li>
 </ol>
 
-
-[<br/>
-   {<br/>
-    "installed":<br/>
-    {<br/>
-      "client_id":"",<br/>
-      "project_id":""",<br/>
-      "auth_uri":"",<br/>
-      "token_uri":"",<br/>
-      "auth_provider_x509_cert_url":"",<br/>
-      "client_secret":"",<br/>
-      "redirect_uris":[""]<br/>
-    },<br/>
-  },<br/>
+```
+[
+   {
+    "installed":
+    {
+      "client_id":"",
+      "project_id":""",
+      "auth_uri":"",
+      "token_uri":"",
+      "auth_provider_x509_cert_url":"",
+      "client_secret":"",
+      "redirect_uris":[""]
+    },
+  },
 ]
-
+```
 NOTE: "./credentials.json" is an array
 
 4. SPECIFY "custom_designation" and the "sheetID" of the Google Sheet which
@@ -71,6 +71,17 @@ all data from a Google spreadsheet on a sheet by sheet basis. Index.js
 the data map,
 
 --syncs data to SQL table.
+--Data mapping format is 
+```
+[
+   "[target_google_sheet_name]":{
+         table_name: "",
+         [google_column_1_name]: [sql_column_1_name],
+         [google_column_2_name]: [sql_column_2_name],
+         [google_column_n_name]: [sql_column_n_name]
+   }
+]
+```
 
 EXTERNAL ERROR HANDLING
 --
