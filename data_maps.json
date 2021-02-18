@@ -1,11 +1,4 @@
 {
-  "gasoline": {
-    "table_name": "Facility_Utilities_Gasoline",
-    "Date": "Date",
-    "Exxon (Credit Card)": "Credit_Card",
-    "Bulk Tank @ Facilities": "Buld_Tank",
-    "Gulf": "Gulf"
-  },
   "woodchips": {
     "table_name": "Facility_Utilities_Woodchips",
     "Date": "Date",
@@ -17,48 +10,6 @@
     "Company" : "Company",
     "Notes" : "Notes"
   },
-  "fuel_oil": {
-    "table_name": "Facility_Utilities_Fuel_Oil",
-    "Date": "Date",
-    "Location": "Location",
-    "Gallons": "Gallons",
-    "Company": "Company"
-  },
-  "green_mountain_power": {
-    "table_name": "Facility_Utilities_GMP",
-    "Month": "Month",
-    "Location": "Location",
-    "kwh": "kwh",
-    "Dollars": "Dollars"
-  },
-  "suburban_propane": {
-    "table_name": "Facility_Utilities_Suburban_Propane",
-    "Date": "Date",
-    "Location": "Location",
-    "Gallons": "Gallons"
-  },
-  "off_road_diesel": {
-    "table_name": "Facility_Utilities_Off_Road_Diesel",
-    "Date": "Date",
-    "Gallons Delivered" : "Gallons_Delivered",
-    "Location" : "Location",
-    "Company": "Company",
-    "US_dollars_per_gallon" : "Dollars_Per_Gallon"
-  },
-  "generator_run_hours": {
-    "table_name": "Facility_Utilities_Generator_Run_Hours",
-    "Date": "Date",
-    "Generator": "Generator",
-    "Hours": "Hours"
-  },
-  "solar_sense": {
-    "table_name": "Facility_Utilities_Solar_Sense",
-    "Date": "date",
-    "Location": "location",
-    "kwh": "kwh",
-    "Dollars": "dollars",
-    "Savings for \"Off-Taker\"":"off_taker_savings"
-  },
   "water_and_sewage": {
     "table_name": "Facilities_Utilities_Water_Sewage",
     "Date": "Date",
@@ -68,18 +19,4 @@
     "Location": "Location",
     "Bond Assessment": "Bond_Assessment",
     "Metered Water": "Metered_Water"
-  },
-  "cvps": {
-    "table_name": "Facility_Utilities_CVPS",
-    "Month": "Month",
-    "Location": "Location",
-    "kwh": "kwh"
-  },
-  "fuel_oil_4": {
-    "table_name": "Facility_Utilities_Fuel_Oil_4",
-    "Date": "Date",
-    "Gallons": "Gallons",
-    "Dollars Per Gallon": "Dollars_Per_Gallon",
-    "Company": "Company"
-  }
 }
