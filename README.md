@@ -3,7 +3,7 @@ CONFIGURATION
 <ol>
 <li> GO TO https://developers.google.com/calendar/quickstart/nodejs</li>
 <li> CLICK THE LINK "Enable the Google Calendar API" </li>
-<li> COPY CONFIGURATION AND PAST INTO "./credentials.json".<br/> After pasting, the file should resemble the following</li>
+<li> COPY CONFIGURATION AND PASTE INTO "./credentials.json".<br/> After pasting, the file should resemble the following</li>
 </ol>
 
 ```
